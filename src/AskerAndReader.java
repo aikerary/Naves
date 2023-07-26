@@ -15,9 +15,9 @@ public class AskerAndReader {
      *                 be displayed to the user.
      * @return The method is returning an Object.
      */
-    public Object ask(String question) {
+    public String ask(String question) {
         System.out.print(question);
-        return scanner.nextLine();
+        return scanner.nextLine().toString();
     }
 
     /**
